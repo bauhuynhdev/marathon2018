@@ -19,8 +19,8 @@
 		href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,400i,600,600i,700,700i,800|Roboto+Condensed:300,400,700&amp;subset=vietnamese"
 		rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
-	<link rel="stylesheet" href="style.css" type="text/css"/>
-	<link rel="stylesheet" href="custom.css" type="text/css"/>
+	<link rel="stylesheet" href="custom/css/style.css" type="text/css"/>
+	<link rel="stylesheet" href="custom/css/custom.css" type="text/css"/>
 	<link rel="stylesheet" href="css/dark.css" type="text/css"/>
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css"/>
 	<link rel="stylesheet" href="css/animate.css" type="text/css"/>
@@ -50,7 +50,7 @@
 	<div id="wrapper" class="clearfix">
 	<div id="top-bar">
 		<div class="container clearfix">
-			<div class="col_half nobottommargin"><p class="nobottommargin"><strong>Email:</strong> info@pulse.vn</p></div>
+			<div class="col_half nobottommargin"><p class="nobottommargin"><strong>Hotline:</strong> 01689221087</p></div>
 			<div class="col_half col_last fright nobottommargin">
 				<div class="top-links">
 					<ul>
@@ -67,9 +67,9 @@
 	<header id="header" class="sticky-style-2 dark">
 		<div class="container clearfix">
 			<div id="logo">
-				<a href="/" class="standard-logo" data-dark-logo="images/logo.png">
-					<img class="divcenter"
-					     src="images/logo.png"
+				<a href="/" class="standard-logo" data-dark-logo="custom/images/logo.png">
+					<img width="113" height="100" class="divcenter"
+					     src="custom/images/logo.png"
 					     alt="DANANG INTERNATIONAL MARATHON">
 				</a>
 				<!--<a href="index-3.html" class="retina-logo" data-dark-logo="images/logo.png">-->
@@ -94,17 +94,17 @@
 								<li><a href="general-info.html">
 									<div>GENERAL INFO</div>
 								</a></li>
-								<li><a href="danang-marathon-course.html">COURSE</a></li>
-								<li><a href="danang-marathon-training.html">RACE KIT</a></li>
+								<li><a href="course.html">COURSE</a></li>
+								<li><a href="race-kit.html">RACE KIT</a></li>
 							</ul>
 						</li>
 
 						<li>
-							<a href="#">REGISTRATION</a>
+							<a href="registration.html">REGISTRATION</a>
 						</li>
 
 						<li>
-							<a href="#">GALLERY</a>
+							<a href="gallery.html">GALLERY</a>
 						</li>
 
 						<!--<li><a href="danang-marathon-sponsors.html">SPONSORS</a>-->
@@ -126,48 +126,220 @@
 
 					<!-- MAIN IMAGE 2 - CARBO LOAD DINNER-->
 					<!-- CARBO LOAD DINNER -->
-					<li class="dark" data-transition="zoomout" data-slotamount="1" data-masterspeed="7000"
-					    data-thumb="images/slider/bg-result-2017.jpg"
-					    data-saveperformance="off" data-title="DANANG MARATHON - SLIDER 3">
-						<img src="images/slider/danang-marathon-2018.jpg" alt="citybg"
-						     data-lazyload="images/slider/danang-marathon-2018.jpg" data-bgposition="center top" data-bgfit="cover"
-						     data-bgrepeat="no-repeat">
+					<!--<li class="dark" data-transition="zoomout" data-slotamount="1" data-masterspeed="7000"-->
+					    <!--data-thumb="images/slider/bg-result-2017.jpg"-->
+					    <!--data-saveperformance="off" data-title="DANANG MARATHON - SLIDER 3">-->
+						<!--<img src="images/slider/danang-marathon-2018.jpg" alt="citybg"-->
+						     <!--data-lazyload="images/slider/danang-marathon-2018.jpg" data-bgposition="center top" data-bgfit="cover"-->
+						     <!--data-bgrepeat="no-repeat">-->
 
-						<div class="tp-caption customin ltl tp-resizeme revo-slider-desc-text tcenter"
-						     data-x="10"
-						     data-y="130"
-						     data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-						     data-speed="3100"
-						     data-start="1200"
-						     data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01"
-						     data-endelementdelay="0.1"
-						     data-endspeed="1200" data-endeasing="Power4.easeIn"
-						     style="z-index: 11; white-space: normal; color:#000; font-size:30px; font-weight:900; line-height:36px;">
-							WELCOME TO DANANG INTERNATIONAL MARATHON<br><span style="font-size:50px;">AUGUST 12TH, 2018</span></div>
+						<!--<div class="tp-caption customin ltl tp-resizeme revo-slider-desc-text tcenter"-->
+						     <!--data-x="10"-->
+						     <!--data-y="130"-->
+						     <!--data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+						     <!--data-speed="3100"-->
+						     <!--data-start="1200"-->
+						     <!--data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01"-->
+						     <!--data-endelementdelay="0.1"-->
+						     <!--data-endspeed="1200" data-endeasing="Power4.easeIn"-->
+						     <!--style="z-index: 11; white-space: normal; color:#000; font-size:30px; font-weight:900; line-height:36px;">-->
+							<!--WELCOME TO DANANG INTERNATIONAL MARATHON<br><span style="font-size:50px;">AUGUST 12TH, 2018</span></div>-->
 
-						<div class="tp-caption customin ltl tp-resizeme"
-						     data-x="10"
-						     data-y="250"
-						     data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-						     data-speed="1100"
-						     data-start="1800"
-						     data-easing="easeOutQuad"
-						     data-splitin="none"
-						     data-splitout="none"
-						     data-elementdelay="0.01"
-						     data-endelementdelay="0.1"
-						     data-endspeed="3200"
-						     data-endeasing="Power4.easeIn" style="z-index: 11; color: #33333;">
-							<a href="danang-marathon-registration.html"
-							   class="button button-3d button-xlarge button-rounded button-amber" style="color:#000000;">Read more</a>
-						</div>
-					</li>
+						<!--<div class="tp-caption customin ltl tp-resizeme"-->
+						     <!--data-x="10"-->
+						     <!--data-y="250"-->
+						     <!--data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+						     <!--data-speed="1100"-->
+						     <!--data-start="1800"-->
+						     <!--data-easing="easeOutQuad"-->
+						     <!--data-splitin="none"-->
+						     <!--data-splitout="none"-->
+						     <!--data-elementdelay="0.01"-->
+						     <!--data-endelementdelay="0.1"-->
+						     <!--data-endspeed="3200"-->
+						     <!--data-endeasing="Power4.easeIn" style="z-index: 11; color: #33333;">-->
+							<!--<a href="danang-marathon-registration.html"-->
+							   <!--class="button button-3d button-xlarge button-rounded button-amber" style="color:#000000;">Read more</a>-->
+						<!--</div>-->
+					<!--</li>-->
 
-					<!-- MAIN IMAGE 1 - AN AWESOME RACE-->
-					<!-- AN AWESOME RACE -->
-					<li data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="images/slider/bg-2.jpg"
-					    data-delay="15000" data-saveperformance="off" data-title="DANANG MARATHON - SLIDER 3"><img
-						src="images/slider/bg-5.jpg" data-bgpositionend="center top">
+					<!--&lt;!&ndash; MAIN IMAGE 1 - AN AWESOME RACE&ndash;&gt;-->
+					<!--&lt;!&ndash; AN AWESOME RACE &ndash;&gt;-->
+					<!--<li data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="images/slider/bg-2.jpg"-->
+					    <!--data-delay="15000" data-saveperformance="off" data-title="DANANG MARATHON - SLIDER 3"><img-->
+						<!--src="images/slider/bg-5.jpg" data-bgpositionend="center top">-->
+						<!--&lt;!&ndash; LAYER NR. 2 &ndash;&gt;-->
+						<!--<div class="tp-caption customin ltl tp-resizeme revo-slider-emphasis-text nopadding noborder uppercase"-->
+						     <!--data-x="10" data-y="160"-->
+						     <!--data-customin="x:5;y:0;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:5;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+						     <!--data-speed="800"-->
+						     <!--data-start="1400"-->
+						     <!--data-easing="easeOutQuad" data-splitin="chars" data-splitout="none" data-elementdelay="0.1"-->
+						     <!--data-endelementdelay="0.1"-->
+						     <!--data-endspeed="3200"-->
+						     <!--data-endeasing="Power4.easeIn"-->
+						     <!--style="z-index:11;font-size:55px;color:#fff;font-weight:700;font-family:'Titillium Web', sans-serif;">-->
+							<!--AN AWESOME RACE-->
+						<!--</div>-->
+
+						<!--<div class="tp-caption customin ltl tp-resizeme revo-slider-desc-text tleft"-->
+						     <!--data-x="10"-->
+						     <!--data-y="210"-->
+						     <!--data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+						     <!--data-speed="800"-->
+						     <!--data-start="1600"-->
+						     <!--data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01"-->
+						     <!--data-endelementdelay="0.1"-->
+						     <!--data-endspeed="3200" data-endeasing="Power4.easeIn"-->
+						     <!--style="z-index:11;white-space:normal;color:#fff; font-size:55px;font-weight:700;font-family:'Titillium Web', sans-serif;">-->
+							<!--A GREAT VACATION-->
+						<!--</div>-->
+
+						<!--<div class="tp-caption customin ltl tp-resizeme"-->
+						     <!--data-x="10"-->
+						     <!--data-y="250"-->
+						     <!--data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+						     <!--data-speed="800"-->
+						     <!--data-start="1800"-->
+						     <!--data-easing="easeOutQuad"-->
+						     <!--data-splitin="none"-->
+						     <!--data-splitout="none"-->
+						     <!--data-elementdelay="0.01"-->
+						     <!--data-endelementdelay="0.1"-->
+						     <!--data-endspeed="3200"-->
+						     <!--data-endeasing="Power4.easeIn"-->
+						     <!--style="z-index: 11; color: #fff; font-family: 'Titillium Web', sans-serif;">-->
+							<!--<a href="danang-marathon-abouttherace.html"-->
+							   <!--class="button button-3d button-xlarge button-rounded button-amber">READ MORE</a></div>-->
+					<!--</li>-->
+
+					<!--&lt;!&ndash; YOUR ONLY LIMIT IS YOURSELF&ndash;&gt;-->
+					<!--<li class="dark" data-transition="zoomout" data-slotamount="0" data-masterspeed="1500"-->
+					    <!--data-thumb="images/slider/bg-4.jpg" data-saveperformance="off" data-title="DANANG MARATHON - SLIDER 2">-->
+						<!--<img src="images/slider/bg-4.jpg" alt="citybg" data-lazyload="images/slider/bg-4.jpg"-->
+						     <!--data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">-->
+						<!--<div class="tp-caption customin ltl tp-resizeme revo-slider-caps-text"-->
+						     <!--data-x="10"-->
+						     <!--data-y="160"-->
+						     <!--data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+						     <!--data-speed="800"-->
+						     <!--data-start="1200"-->
+						     <!--data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01"-->
+						     <!--data-endelementdelay="0.1"-->
+						     <!--data-endspeed="4000"-->
+						     <!--data-endeasing="Power4.easeIn"-->
+						     <!--style="z-index:11;color:#FFF;font-size:30px;font-family:'Titillium Web', sans-serif;">YOUR ONLY LIMIT-->
+							<!--IS YOURSELF-->
+						<!--</div>-->
+
+						<!--<div class="tp-caption customin ltl tp-resizeme revo-slider-emphasis-text nopadding noborder uppercase"-->
+						     <!--data-x="10"-->
+						     <!--data-y="210"-->
+						     <!--data-customin="x:5;y:0;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:5;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+						     <!--data-speed="800"-->
+						     <!--data-start="1400"-->
+						     <!--data-easing="easeOutQuad" data-splitin="chars" data-splitout="none" data-elementdelay="0.1"-->
+						     <!--data-endelementdelay="0.1"-->
+						     <!--data-endspeed="4000"-->
+						     <!--data-endeasing="Power4.easeIn"-->
+						     <!--style="z-index: 11;font-size:70px;color:#fff;font-weight:700;font-family: 'Titillium Web', sans-serif;">-->
+							<!--CHALLENGE IT NOW!-->
+						<!--</div>-->
+
+						<!--<div class="tp-caption customin ltl tp-resizeme"-->
+						     <!--data-x="5"-->
+						     <!--data-y="255"-->
+						     <!--data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+						     <!--data-speed="800"-->
+						     <!--data-start="1800"-->
+						     <!--data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01"-->
+						     <!--data-endelementdelay="0.1"-->
+						     <!--data-endspeed="4000"-->
+						     <!--data-endeasing="Power4.easeIn"-->
+						     <!--style="z-index: 11; color: #fff; font-family: 'Titillium Web', sans-serif;">-->
+							<!--<a href="danang-marathon-registration.html"-->
+							   <!--class="button button-3d button-xlarge button-rounded button-amber">REGISTER</a></div>-->
+					<!--</li>-->
+
+
+					<!--&lt;!&ndash; ONE OF THE MOST SCENIC&ndash;&gt;-->
+					<!--<li data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="images/slider/bg-2.jpg"-->
+					    <!--data-delay="15000"-->
+					    <!--data-saveperformance="off" data-title="DANANG MARATHON - SLIDER 6">-->
+						<!--<img src="images/slider/bg-2.jpg" data-bgpositionend="center top">-->
+
+						<!--&lt;!&ndash; LAYER NR. 6 &ndash;&gt;-->
+						<!--<div class="tp-caption customin ltl tp-resizeme revo-slider-desc-text tleft"-->
+						     <!--data-x="10"-->
+						     <!--data-y="140"-->
+						     <!--data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+						     <!--data-speed="800"-->
+						     <!--data-start="1600"-->
+						     <!--data-easing="easeOutQuad"-->
+						     <!--data-splitin="none"-->
+						     <!--data-splitout="none"-->
+						     <!--data-elementdelay="0.01"-->
+						     <!--data-endelementdelay="0.1"-->
+						     <!--data-endspeed="1000"-->
+						     <!--data-endeasing="Power4.easeIn"-->
+						     <!--style="z-index: 11; white-space: normal; color: #fff; font-family: 'Titillium Web', sans-serif; font-size: 24px; ">-->
+							<!--EXPERIENCE-->
+						<!--</div>-->
+
+						<!--<div class="tp-caption customin ltl tp-resizeme revo-slider-emphasis-text nopadding noborder uppercase"-->
+						     <!--data-x="10"-->
+						     <!--data-y="175"-->
+						     <!--data-customin="x:5;y:0;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:5;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+						     <!--data-speed="800"-->
+						     <!--data-start="1400"-->
+						     <!--data-easing="easeOutQuad"-->
+						     <!--data-splitin="chars"-->
+						     <!--data-splitout="none"-->
+						     <!--data-elementdelay="0.1"-->
+						     <!--data-endelementdelay="0.1"-->
+						     <!--data-endspeed="3200"-->
+						     <!--data-endeasing="Power4.easeIn"-->
+						     <!--style="z-index: 11; font-size: 46px; color: #F89921; font-family: 'Titillium Web', sans-serif; font-weight: 700;">-->
+							<!--ONE OF THE MOST SCENIC-->
+						<!--</div>-->
+
+						<!--<div class="tp-caption customin ltl tp-resizeme revo-slider-desc-text tleft"-->
+						     <!--data-x="10"-->
+						     <!--data-y="210"-->
+						     <!--data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+						     <!--data-speed="800"-->
+						     <!--data-start="1600"-->
+						     <!--data-easing="easeOutQuad"-->
+						     <!--data-splitin="none"-->
+						     <!--data-splitout="none"-->
+						     <!--data-elementdelay="0.01"-->
+						     <!--data-endelementdelay="0.1"-->
+						     <!--data-endspeed="3200"-->
+						     <!--data-endeasing="Power4.easeIn"-->
+						     <!--style="z-index: 11; white-space: normal; color: #fff; font-size: 24px; font-family: 'Titillium Web', sans-serif;">-->
+							<!--MARATHON RACE COURSES IN SOUTHEAST ASIA-->
+						<!--</div>-->
+						<!--<div class="tp-caption customin ltl tp-resizeme"-->
+						     <!--data-x="5"-->
+						     <!--data-y="240"-->
+						     <!--data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"-->
+						     <!--data-speed="800"-->
+						     <!--data-start="1800"-->
+						     <!--data-easing="easeOutQuad"-->
+						     <!--data-splitin="none"-->
+						     <!--data-splitout="none"-->
+						     <!--data-elementdelay="0.01"-->
+						     <!--data-endelementdelay="0.1"-->
+						     <!--data-endspeed="3200"-->
+						     <!--data-endeasing="Power4.easeIn"-->
+						     <!--style="z-index: 11; color: #fff; font-family: 'Titillium Web', sans-serif;">-->
+							<!--<a href="danang-marathon-program-map.html"-->
+							   <!--class="button button-3d button-xlarge button-rounded button-amber">READ MORE</a></div>-->
+					<!--</li>-->
+
+					<li data-transition="fade" data-slotamount="1" data-masterspeed="3500" data-thumb="custom/images/image-1.jpg"
+					    data-delay="3500" data-saveperformance="off" data-title="DANANG MARATHON - SLIDER 3"><img
+						src="custom/images/image-1.jpg" data-bgpositionend="center top">
 						<!-- LAYER NR. 2 -->
 						<div class="tp-caption customin ltl tp-resizeme revo-slider-emphasis-text nopadding noborder uppercase"
 						     data-x="10" data-y="160"
@@ -213,94 +385,21 @@
 							   class="button button-3d button-xlarge button-rounded button-amber">READ MORE</a></div>
 					</li>
 
-					<!-- YOUR ONLY LIMIT IS YOURSELF-->
-					<li class="dark" data-transition="zoomout" data-slotamount="0" data-masterspeed="1500"
-					    data-thumb="images/slider/bg-4.jpg" data-saveperformance="off" data-title="DANANG MARATHON - SLIDER 2">
-						<img src="images/slider/bg-4.jpg" alt="citybg" data-lazyload="images/slider/bg-4.jpg"
-						     data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-						<div class="tp-caption customin ltl tp-resizeme revo-slider-caps-text"
-						     data-x="10"
-						     data-y="160"
-						     data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-						     data-speed="800"
-						     data-start="1200"
-						     data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01"
-						     data-endelementdelay="0.1"
-						     data-endspeed="4000"
-						     data-endeasing="Power4.easeIn"
-						     style="z-index:11;color:#FFF;font-size:30px;font-family:'Titillium Web', sans-serif;">YOUR ONLY LIMIT
-							IS YOURSELF
-						</div>
-
+					<li data-transition="fade" data-slotamount="1" data-masterspeed="3500" data-thumb="custom/images/image-2.jpg"
+					    data-delay="3500" data-saveperformance="off" data-title="DANANG MARATHON - SLIDER 3"><img
+						src="custom/images/image-2.jpg" data-bgpositionend="center top">
+						<!-- LAYER NR. 2 -->
 						<div class="tp-caption customin ltl tp-resizeme revo-slider-emphasis-text nopadding noborder uppercase"
-						     data-x="10"
-						     data-y="210"
+						     data-x="10" data-y="160"
 						     data-customin="x:5;y:0;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:5;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
 						     data-speed="800"
 						     data-start="1400"
 						     data-easing="easeOutQuad" data-splitin="chars" data-splitout="none" data-elementdelay="0.1"
 						     data-endelementdelay="0.1"
-						     data-endspeed="4000"
-						     data-endeasing="Power4.easeIn"
-						     style="z-index: 11;font-size:70px;color:#fff;font-weight:700;font-family: 'Titillium Web', sans-serif;">
-							CHALLENGE IT NOW!
-						</div>
-
-						<div class="tp-caption customin ltl tp-resizeme"
-						     data-x="5"
-						     data-y="255"
-						     data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-						     data-speed="800"
-						     data-start="1800"
-						     data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01"
-						     data-endelementdelay="0.1"
-						     data-endspeed="4000"
-						     data-endeasing="Power4.easeIn"
-						     style="z-index: 11; color: #fff; font-family: 'Titillium Web', sans-serif;">
-							<a href="danang-marathon-registration.html"
-							   class="button button-3d button-xlarge button-rounded button-amber">REGISTER</a></div>
-					</li>
-
-
-					<!-- ONE OF THE MOST SCENIC-->
-					<li data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="images/slider/bg-2.jpg"
-					    data-delay="15000"
-					    data-saveperformance="off" data-title="DANANG MARATHON - SLIDER 6">
-						<img src="images/slider/bg-2.jpg" data-bgpositionend="center top">
-
-						<!-- LAYER NR. 6 -->
-						<div class="tp-caption customin ltl tp-resizeme revo-slider-desc-text tleft"
-						     data-x="10"
-						     data-y="140"
-						     data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-						     data-speed="800"
-						     data-start="1600"
-						     data-easing="easeOutQuad"
-						     data-splitin="none"
-						     data-splitout="none"
-						     data-elementdelay="0.01"
-						     data-endelementdelay="0.1"
-						     data-endspeed="1000"
-						     data-endeasing="Power4.easeIn"
-						     style="z-index: 11; white-space: normal; color: #fff; font-family: 'Titillium Web', sans-serif; font-size: 24px; ">
-							EXPERIENCE
-						</div>
-
-						<div class="tp-caption customin ltl tp-resizeme revo-slider-emphasis-text nopadding noborder uppercase"
-						     data-x="10"
-						     data-y="175"
-						     data-customin="x:5;y:0;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:5;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-						     data-speed="800"
-						     data-start="1400"
-						     data-easing="easeOutQuad"
-						     data-splitin="chars"
-						     data-splitout="none"
-						     data-elementdelay="0.1"
-						     data-endelementdelay="0.1"
 						     data-endspeed="3200"
 						     data-endeasing="Power4.easeIn"
-						     style="z-index: 11; font-size: 46px; color: #F89921; font-family: 'Titillium Web', sans-serif; font-weight: 700;">
-							ONE OF THE MOST SCENIC
+						     style="z-index:11;font-size:55px;color:#fff;font-weight:700;font-family:'Titillium Web', sans-serif;">
+							AN AWESOME RACE
 						</div>
 
 						<div class="tp-caption customin ltl tp-resizeme revo-slider-desc-text tleft"
@@ -309,19 +408,16 @@
 						     data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
 						     data-speed="800"
 						     data-start="1600"
-						     data-easing="easeOutQuad"
-						     data-splitin="none"
-						     data-splitout="none"
-						     data-elementdelay="0.01"
+						     data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01"
 						     data-endelementdelay="0.1"
-						     data-endspeed="3200"
-						     data-endeasing="Power4.easeIn"
-						     style="z-index: 11; white-space: normal; color: #fff; font-size: 24px; font-family: 'Titillium Web', sans-serif;">
-							MARATHON RACE COURSES IN SOUTHEAST ASIA
+						     data-endspeed="3200" data-endeasing="Power4.easeIn"
+						     style="z-index:11;white-space:normal;color:#fff; font-size:55px;font-weight:700;font-family:'Titillium Web', sans-serif;">
+							A GREAT VACATION
 						</div>
+
 						<div class="tp-caption customin ltl tp-resizeme"
-						     data-x="5"
-						     data-y="240"
+						     data-x="10"
+						     data-y="250"
 						     data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
 						     data-speed="800"
 						     data-start="1800"
@@ -333,7 +429,55 @@
 						     data-endspeed="3200"
 						     data-endeasing="Power4.easeIn"
 						     style="z-index: 11; color: #fff; font-family: 'Titillium Web', sans-serif;">
-							<a href="danang-marathon-program-map.html"
+							<a href="danang-marathon-abouttherace.html"
+							   class="button button-3d button-xlarge button-rounded button-amber">READ MORE</a></div>
+					</li>
+
+					<li data-transition="fade" data-slotamount="1" data-masterspeed="3500" data-thumb="custom/images/image-3.jpg"
+					    data-delay="3500" data-saveperformance="off" data-title="DANANG MARATHON - SLIDER 3"><img
+						src="custom/images/image-3.jpg" data-bgpositionend="center top">
+						<!-- LAYER NR. 2 -->
+						<div class="tp-caption customin ltl tp-resizeme revo-slider-emphasis-text nopadding noborder uppercase"
+						     data-x="10" data-y="160"
+						     data-customin="x:5;y:0;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:5;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+						     data-speed="800"
+						     data-start="1400"
+						     data-easing="easeOutQuad" data-splitin="chars" data-splitout="none" data-elementdelay="0.1"
+						     data-endelementdelay="0.1"
+						     data-endspeed="3200"
+						     data-endeasing="Power4.easeIn"
+						     style="z-index:11;font-size:55px;color:#fff;font-weight:700;font-family:'Titillium Web', sans-serif;">
+							AN AWESOME RACE
+						</div>
+
+						<div class="tp-caption customin ltl tp-resizeme revo-slider-desc-text tleft"
+						     data-x="10"
+						     data-y="210"
+						     data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+						     data-speed="800"
+						     data-start="1600"
+						     data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01"
+						     data-endelementdelay="0.1"
+						     data-endspeed="3200" data-endeasing="Power4.easeIn"
+						     style="z-index:11;white-space:normal;color:#fff; font-size:55px;font-weight:700;font-family:'Titillium Web', sans-serif;">
+							A GREAT VACATION
+						</div>
+
+						<div class="tp-caption customin ltl tp-resizeme"
+						     data-x="10"
+						     data-y="250"
+						     data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+						     data-speed="800"
+						     data-start="1800"
+						     data-easing="easeOutQuad"
+						     data-splitin="none"
+						     data-splitout="none"
+						     data-elementdelay="0.01"
+						     data-endelementdelay="0.1"
+						     data-endspeed="3200"
+						     data-endeasing="Power4.easeIn"
+						     style="z-index: 11; color: #fff; font-family: 'Titillium Web', sans-serif;">
+							<a href="danang-marathon-abouttherace.html"
 							   class="button button-3d button-xlarge button-rounded button-amber">READ MORE</a></div>
 					</li>
 				</ul>
@@ -574,58 +718,58 @@
 			</div>
 
 			<!--Manulife DaNang International Marathon 2018 - PLAN YOUR TRIP -->
-			<div class="container clearfix" style="margin-top:60px;">
-				<div class="heading-block center">
-					<h2>PLAN YOUR TRIP<span> DANANG</span></h2>
-					<span style="font-size:14px;">A GREAT STAY MAKES A GREAT HOLIDAY</span>
-				</div>
+			<!--<div class="container clearfix" style="margin-top:60px;">-->
+				<!--<div class="heading-block center">-->
+					<!--<h2>PLAN YOUR TRIP<span> DANANG</span></h2>-->
+					<!--<span style="font-size:14px;">A GREAT STAY MAKES A GREAT HOLIDAY</span>-->
+				<!--</div>-->
 
-				<div class="col_one_third nobottommargin">
-					<div class="feature-box media-box">
-						<div class="fbox-media">
-							<a href="danang-marathon-explore-danang.html"><img src="images/index/explore-danang-marathon.jpg"
-							                                                   alt="EXPLORE DANANG"></a>
-						</div>
-						<div class="fbox-desc">
-							<h3 style="color:#F89921;">EXPLORE DANANG</h3>
-							<p>Danang has many amazing places to visit. Enjoy the city to get familiar with it before event day, and
-								eat some special food that good for your health.</p>
-						</div>
-					</div>
-				</div>
+				<!--<div class="col_one_third nobottommargin">-->
+					<!--<div class="feature-box media-box">-->
+						<!--<div class="fbox-media">-->
+							<!--<a href="danang-marathon-explore-danang.html"><img src="images/index/explore-danang-marathon.jpg"-->
+							                                                   <!--alt="EXPLORE DANANG"></a>-->
+						<!--</div>-->
+						<!--<div class="fbox-desc">-->
+							<!--<h3 style="color:#F89921;">EXPLORE DANANG</h3>-->
+							<!--<p>Danang has many amazing places to visit. Enjoy the city to get familiar with it before event day, and-->
+								<!--eat some special food that good for your health.</p>-->
+						<!--</div>-->
+					<!--</div>-->
+				<!--</div>-->
 
-				<div class="col_one_third nobottommargin">
-					<div class="feature-box media-box">
-						<div class="fbox-media">
-							<a href="danang-marathon-accommodation-tours.html"><img
-								src="images/index/accommodation-tours-danang-marathon.jpg" alt="ACCOMMODATION & TOURS"></a>
-						</div>
-						<div class="fbox-desc">
-							<h3 style="color:#F89921;">ACCOMMODATION & TOURS</h3>
-							<p>The top places to visit in Da Nang, see what the city has to offer. A great stay makes a great holiday.
-								The most worth-living city in Viet Nam.</p>
-						</div>
-					</div>
-				</div>
+				<!--<div class="col_one_third nobottommargin">-->
+					<!--<div class="feature-box media-box">-->
+						<!--<div class="fbox-media">-->
+							<!--<a href="danang-marathon-accommodation-tours.html"><img-->
+								<!--src="images/index/accommodation-tours-danang-marathon.jpg" alt="ACCOMMODATION & TOURS"></a>-->
+						<!--</div>-->
+						<!--<div class="fbox-desc">-->
+							<!--<h3 style="color:#F89921;">ACCOMMODATION & TOURS</h3>-->
+							<!--<p>The top places to visit in Da Nang, see what the city has to offer. A great stay makes a great holiday.-->
+								<!--The most worth-living city in Viet Nam.</p>-->
+						<!--</div>-->
+					<!--</div>-->
+				<!--</div>-->
 
-				<div class="col_one_third nobottommargin col_last">
-					<div class="feature-box media-box">
-						<div class="fbox-media">
-							<a href="danang-marathon-how-to-get-there.html"> <img
-								src="images/index/how-to-get-there-danang-marathon.jpg" alt="HOW TO GET THERE"></a>
-						</div>
-						<div class="fbox-desc">
-							<h3 style="color:#F89921;">HOW TO GET THERE</h3>
-							<p>If you are from outside Vietnam, you will need to find a flight to Ho Chi Minh City (HCMC) or Hanoi
-								Vietnam first.
-								There are 20+ non-stop flights to Danang from China, Japan, Hong Kong, Singapore, Philippines, etc.</p>
-						</div>
-					</div>
-				</div>
+				<!--<div class="col_one_third nobottommargin col_last">-->
+					<!--<div class="feature-box media-box">-->
+						<!--<div class="fbox-media">-->
+							<!--<a href="danang-marathon-how-to-get-there.html"> <img-->
+								<!--src="images/index/how-to-get-there-danang-marathon.jpg" alt="HOW TO GET THERE"></a>-->
+						<!--</div>-->
+						<!--<div class="fbox-desc">-->
+							<!--<h3 style="color:#F89921;">HOW TO GET THERE</h3>-->
+							<!--<p>If you are from outside Vietnam, you will need to find a flight to Ho Chi Minh City (HCMC) or Hanoi-->
+								<!--Vietnam first.-->
+								<!--There are 20+ non-stop flights to Danang from China, Japan, Hong Kong, Singapore, Philippines, etc.</p>-->
+						<!--</div>-->
+					<!--</div>-->
+				<!--</div>-->
 
-				<div class="clear"></div>
+				<!--<div class="clear"></div>-->
 
-			</div>
+			<!--</div>-->
 
 			<div class="section parallax nobottommargin nobottomborder" style="margin-top:20px;">
 				<div class="heading-block center"><h2 style="font-size:28px;">SPONSORS</h2>
