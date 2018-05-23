@@ -9,3 +9,32 @@
 .section {
 	padding-top: 60px !important;
 }
+
+/*.masonry-thumbs a, .masonry-thumbs img {*/
+	/*height: unset !important;*/
+/*}*/
+
+/*a > img.image_fade {*/
+	/*max-width: 190px !important;*/
+	/*max-height: 143px !important;*/
+/*}*/
+
+a[data-lightbox="gallery-item"] {
+	width: 380px !important;
+	height: 286px !important;
+}
+
+a[data-lightbox="gallery-item"] > img.image_fade {
+	height: 286px !important;
+}
+
+@media only screen and (max-width: 480px) {
+	a[data-lightbox="gallery-item"] {
+		width: 190px !important;
+		height: 143px !important;
+	}
+
+	a[data-lightbox="gallery-item"] > img.image_fade {
+		height: 143px !important;
+	}
+}
