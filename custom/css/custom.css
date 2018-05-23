@@ -28,6 +28,10 @@ a[data-lightbox="gallery-item"] > img.image_fade {
 	height: 286px !important;
 }
 
+.heading-block:after {
+	border-top: unset !important;
+}
+
 @media only screen and (max-width: 480px) {
 	a[data-lightbox="gallery-item"] {
 		width: 190px !important;
