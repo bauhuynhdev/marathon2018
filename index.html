@@ -28,6 +28,31 @@
 	<script type="text/javascript" src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
 	<script type="text/javascript" src="include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/settings.css" media="screen"/>
+	<style>
+		a[data-lightbox="gallery-item"] {
+			width: 380px !important;
+			height: 286px !important;
+		}
+
+		a[data-lightbox="gallery-item"] > img.image_fade {
+			height: 286px !important;
+		}
+
+		.heading-block:after {
+			border-top: unset !important;
+		}
+
+		@media only screen and (max-width: 480px) {
+			a[data-lightbox="gallery-item"] {
+				width: 190px !important;
+				height: 143px !important;
+			}
+
+			a[data-lightbox="gallery-item"] > img.image_fade {
+				height: 143px !important;
+			}
+		}
+	</style>
 </head>
 <!--Manulife DaNang International Marathon - Information-->
 <body class="stretched">
@@ -55,6 +80,11 @@
 					     src="custom/images/logo.png"
 					     alt="DANANG INTERNATIONAL MARATHON">
 				</a>
+				<a href="index-3.html" class="retina-logo" data-dark-logo="custom/images/logo.png">
+					<img class="divcenter"
+					     width="100" height="87"
+					     src="custom/images/logo.png"
+					     alt="DANANG INTERNATIONAL MARATHON"></a>
 			</div>
 		</div>
 
@@ -540,8 +570,8 @@
 						     data-delay="200">
 							<div class="feature-box media-box">
 								<div class="fbox-media"><a href="registration.html"><img class="image_fade"
-								                                                            src="images/index/21km-rundanang.png"
-								                                                            alt="vietnam-marathon"></a>
+								                                                         src="images/index/21km-rundanang.png"
+								                                                         alt="vietnam-marathon"></a>
 								</div>
 							</div>
 							<h4 style="font-weight:800; font-size:60px; color:#106a37; line-height:44px;" data-speed="2500">5KM</h4>
@@ -554,8 +584,8 @@
 						     data-delay="400">
 							<div class="feature-box media-box">
 								<div class="fbox-media"><a href="registration.html"><img class="image_fade"
-								                                                            src="images/index/10km-rundanang.png"
-								                                                            alt="vietnam-marathon"></a>
+								                                                         src="images/index/10km-rundanang.png"
+								                                                         alt="vietnam-marathon"></a>
 								</div>
 							</div>
 							<h4 style="font-weight:800; font-size:60px; color:#3a3a3c; line-height:44px;" data-speed="2500">10KM</h4>
@@ -567,8 +597,8 @@
 						     data-delay="600">
 							<div class="feature-box media-box">
 								<div class="fbox-media"><a href="registration.html"><img class="image_fade"
-								                                                            src="images/index/5km-rundanang.png"
-								                                                            alt="vietnam-marathon"></a>
+								                                                         src="images/index/5km-rundanang.png"
+								                                                         alt="vietnam-marathon"></a>
 								</div>
 							</div>
 							<h4 style="font-weight:800; font-size:60px; color:#00b3f0; line-height:44px;" data-speed="2500">
@@ -641,9 +671,10 @@
 					</div>
 				</div>
 				<br><br>
-				<div class="section parallax" style="padding:20px;" data-stellar-background-ratio="0.3">
+				<div class="section parallax" style="padding:20px; padding-top: unset !important;"
+				     data-stellar-background-ratio="0.3">
 					<div class="heading-block center nobottomborder">
-						<h2 style="color:#F89921; font-size:70px;">Chạy vì trẻ em mồ côi</h2>
+						<h2 style="color:#F89921">Chạy vì trẻ em mồ côi</h2>
 					</div>
 				</div>
 				<div class="container clearfix">
@@ -679,7 +710,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<!--<footer id="footer" class="dark" style="margin-top:50px;">-->
 			<footer id="footer" class="dark">
 				<div class="container">

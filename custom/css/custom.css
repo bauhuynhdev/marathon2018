@@ -19,26 +19,8 @@
 	/*max-height: 143px !important;*/
 /*}*/
 
-a[data-lightbox="gallery-item"] {
-	width: 380px !important;
-	height: 286px !important;
-}
-
-a[data-lightbox="gallery-item"] > img.image_fade {
-	height: 286px !important;
-}
-
-.heading-block:after {
-	border-top: unset !important;
-}
-
-@media only screen and (max-width: 480px) {
-	a[data-lightbox="gallery-item"] {
-		width: 190px !important;
-		height: 143px !important;
-	}
-
-	a[data-lightbox="gallery-item"] > img.image_fade {
-		height: 143px !important;
+@media only screen and (max-width: 991px) {
+	#primary-menu .container #primary-menu-trigger {
+		left: 45% !important;
 	}
 }
